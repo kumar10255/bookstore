@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bookstorecss.css">
+</head>
+
+<body>
+    <div id="sectionHomePage">
+        <div class="background-colors">
+            <h1 class="popular-head">Popular Book</h1>
+            <div class="apj-top-page d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="apj-image-size">
+                <div>
+                    <h1 class="apj-head1">Wings of fire</h1>
+                    <p class="apj-para">an autoblaphy of abdul kala</p>
+                    <p class="apj-head2"> by arun tiwari</p>
+                    <div class="apj-but">
+                        <button class="btn btn-primary " onclick="display('sectionDetialViewApjKalam')">Read Now</button>
+                    </div>
+                </div>
+            </div>
+            <h1 class="recommended-head">Recommended Books</h1>
+            <div class="my-life-top-page d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="my-life-image-size">
+                <div>
+                    <h1 class="apj-head21">the 3 mistake of my life</h1>
+                    <p class="apj-head22">Indian author</p>
+                    <p class="apj-head22">by chetan bhagat</p>
+                    <div class="apj-but">
+                        <button class="btn btn-primary" onclick="display('sectionDetialViewChetanBhagat')">Read Now</button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="my-life-top-page d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="my-life-image-size">
+                <div>
+                    <h1 class="apj-head21">harry potter</h1>
+                    <p class="apj-head22">and the sorcerer's stone</p>
+                    <p class="apj-head22">by j.k.Rowling</p>
+                    <div class="apj-but">
+                        <button class="btn btn-primary" onclick="display('sectionDetialViewHearyPotter')">Read Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionDetialViewApjKalam">
+        <div class="background-colors">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="detial-view-image">
+            </div>
+            <h1 class="detial-view-head">Wings of fire</h1>
+            <p class="detial-view-small-para">by arun tiwari</p>
+            <p class="detial-view-large-para">Every common man who by his sheer grit and hard work achieves success
+                should share his story with the rest for they may find inspiration and strenth to go on
+                in the story the wings of fire is one such autobiology by visitary
+                scientist DR.APJ Abdul kalam who from very humble begining rose to be the president
+                of india the book is full of insights personal moments and life
+                experience of dr,kalam it gives us an understanding on his journey of success
+            </p>
+            <div class="d-flex flex-row justify-content-center detial-view-button">
+                <button class="btn btn-warning" onclick="display('sectionHomePage')">Back</button>
+                <button class="btn btn-primary ">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionDetialViewChetanBhagat">
+        <div class="background-colors">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="detial-view-image">
+            </div>
+            <h1 class="detial-view-head">The 3 mistake of my life</h1>
+            <p class="detial-view-small-para">by chetan bhagat</p>
+            <p class="detial-view-large-para">
+                The 3 mistake of my life is the third novel written by emitent indian author chetan bhagat based
+                on cricket business and religion the novel is set aganist the
+                the novel is set against the backdrop of beatiful city ahmedabad revovling around the book goes
+                on to narrate how the three are trying their best to make the city based on real events
+                the books sttrata with dramatics where bhagat is reading the e-mail sent by some young person govind
+            </p>
+            <div class="d-flex flex-row justify-content-center detial-view-button">
+                <button class="btn btn-warning" onclick="display('sectionHomePage')">Back</button>
+                <button class="btn btn-primary ">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionDetialViewHearyPotter">
+        <div class="background-colors">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="detial-view-image">
+            </div>
+            <h1 class="detial-view-head">Harry potter</h1>
+            <p class="detial-view-small-para">by j.k.Rowling</p>
+            <p class="detial-view-large-para">
+                Harry potter life is misererable his parents are dead and stuck with his heartless relatives
+                who forces him to live uin a tiny closet under the strairs but his forture changes when he recieves a letter that tells him the truth about himself he is wizards school of witchcrafts and wizardly after a lifetime of botting up botting up his magical power power
+                harry finaly feels like a normal kid.
+            </p>
+            <div class="d-flex flex-row justify-content-center detial-view-button">
+                <button class="btn btn-warning" onclick="display('sectionHomePage')">Back</button>
+                <button class="btn btn-primary ">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+.background-colors {
+    background-color: black;
+    background-size: cover;
+    height: 130vh;
+    padding: 15px;
+}
+
+.popular-head {
+    color: white;
+    font-family: bree serif;
+    font-size: 30px;
+}
+
+.apj-top-page {
+    background-color: #e6f6ff;
+    border-radius: 10px;
+
+}
+
+.apj-image-size {
+    height: 180px;
+    width: 120px;
+}
+
+.apj-head1 {
+    color: #183b56;
+    font-family: bree serif;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.apj-head2 {
+    color: #183b56;
+    font-family: bree serif;
+    font-size: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.apj-para {
+    color: black;
+    font-family: bree serif;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.apj-but {
+    padding-left: 10px;
+}
+
+.recommended-head {
+    color: white;
+    font-family: bree serif;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.my-life-top-page {
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.my-life-image-size {
+    height: 160px;
+    width: 100px;
+}
+
+.apj-head21 {
+    color: white;
+    font-family: bree serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.apj-head22 {
+    color: white;
+    font-family: bree serif;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.detial-view-image {
+    height: 250px;
+    width: 170px;
+}
+
+.detial-view-head {
+    color: white;
+    font-family: bree serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.detial-view-small-para {
+    color: #e4e7eb;
+    font-family: roboto;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.detial-view-large-para {
+    color: white;
+    font-family: bree serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.detial-view-button {
+    padding: 10px;
+    text-align: center;
+}
